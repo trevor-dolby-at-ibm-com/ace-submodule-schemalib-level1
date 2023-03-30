@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ace.submodule.schemalib.level1/" xmlns:nsOne="http://ace.submodule.schemalib.level1/" xmlns:Q1="http://ace.submodule.schemalib.level2/">
+    <xsd:import schemaLocation="../SchemaLibLevel2/example-file-level2.xsd" namespace="http://ace.submodule.schemalib.level2/"></xsd:import>
+    <xsd:element name="libOneExampleOne" type="nsOne:libOneExampleOneType"/>
+  <xsd:element name="libOneExampleOneValueOne" type="nsOne:libOneExampleOneValueOneType"/>
+  <xsd:complexType name="libOneExampleOneType">
+    <xsd:sequence>
+      <xsd:element ref="Q1:libTwoExampleOneValueOne"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
