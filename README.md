@@ -4,7 +4,7 @@ ACE submodule schema library level1
 
 This is a mid-level library in a hierarchy of repositories:
 
-![ace-submodule-example-layout](files/ace-submodule-example-layout.png)
+![ace-submodule-example-layout](ace-submodule-example-layout.png)
 
 App library: https://github.com/trevor-dolby-at-ibm-com/ace-submodule-app1
 
